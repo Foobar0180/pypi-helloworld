@@ -9,8 +9,8 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "helloworld"
-DESCRIPTION = "A simple example of packaging code"
+NAME = "GCBC HelloWorld 1.0.0"
+DESCRIPTION = "An example of packaging code"
 URL = "https://github.com/goodcodebadcode/pypi-helloworld"
 EMAIL = "david@goodcodebadcode.com"
 AUTHOR = "David Ritchie"
