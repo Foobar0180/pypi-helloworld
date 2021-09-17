@@ -22,8 +22,7 @@ TESTS = 'tests'
 _INSTALL_REQUIRES = [
     'click',
     'requests',
-    'PyGithub==1.53.0',
-    'pytest-runner'
+    'PyGithub==1.53.0'
 ]
 
 # The directory containing this file
@@ -65,6 +64,8 @@ setup(
     packages=find_packages(exclude=['tests', '*.tests', '*.tests.*', 'tests.*']),
     include_package_data=True,
     install_requires=_INSTALL_REQUIRES,
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     test_suite=TESTS,
     entry_points={
         'console_scripts': [
